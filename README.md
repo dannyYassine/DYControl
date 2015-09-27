@@ -1,8 +1,9 @@
 # DYControl
 # Customizable Segemented Control
 Simply create an Array of Strings for your buttons, it will auto-generate the views accordingly.
-
-        let control = DYControl(withButtons: ["Button", "Button", "Button", "Button"], withFrame: CGRect(x: 10, y: 100, width: 320 - 20, height: 30))
+        
+        let buttonList: [String] = ["Button", "Button", "Button", "Button"]
+        let control = DYControl(withButtons: buttonList, withFrame: CGRect(x: 10, y: 100, width: 320 - 20, height: 30))
         self.view.addSubview(control)
 
 ![](https://raw.githubusercontent.com/dannyYassine/DYControl/master/DYRipple.gif)

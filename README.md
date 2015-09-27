@@ -19,12 +19,15 @@ Simply create an Array of Strings for your buttons, it will auto-generate the vi
         control.panningAllowed          //  Allow to pan the slider
         control.speed                   //  Speed of the slider
         control.buttonTintColor         //  The textColor of the non-selected state
+        control.buttonSelectedTintColor //  The textColor of the selected state
         control.buttonFont              //  Font of the text
         control.backgroundColor         //  Color of the main background
         control.borderColor             //  Border Color of main view
         control.borderWidth             //  Border with of main view
         control.buffer                  //  Padding around the slider
         control.cornerRadius            //  Add corner radius to both slider and main view
+        control.selectedIndexButton     //  Get the selected index
+                                        //  Set the initial selected index
         
         // Delegate
         control.controlDelegate         //  Set the delegate to know which index was selected

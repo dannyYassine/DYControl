@@ -11,10 +11,11 @@ Then set the delegate of DYControl to know which index was selected
         let control.controlDelegate = self
         self.view.addSubview(control)
         
-        ////////
+        //MARK: DYControl Delegate
+        
         func didPressedButton(button: UIButton, atIndex index: Int) {
         
-        //      Have access to which index is selected
+                //  Have access to which index is selected
         
         }
         

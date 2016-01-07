@@ -1,4 +1,4 @@
-# DYControl
+# DYEControl
 # Customizable Segmented Control
 Simply create an Array of Strings for your buttons, it will auto-generate the views accordingly.
 Then set the delegate of DYControl to know which index was selected.
